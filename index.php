@@ -41,7 +41,7 @@
 			var fone = form1.fone.value;
 			 
 			if ((nome == "") || (fone == "")) {
-				alert('Nenhum capo pode ficar vazio.');
+				alert('Nenhum campo pode ficar vazio.');
 				form1.nome.focus();
 				return false;
 			}
